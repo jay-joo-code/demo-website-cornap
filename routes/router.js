@@ -12,4 +12,8 @@ router.get('/team', function(req, res) {
     res.render('team');
 });
 
+router.get('/pricing', function(req, res) {
+    res.render('pricing');
+});
+
 module.exports = router;

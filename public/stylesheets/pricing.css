@@ -1,0 +1,125 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+    //font-family: 'Roboto Slab', serif;
+}
+
+/*Main Style*/
+section.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section-title h2 {
+    font-size: 30px;
+    position: relative;
+}
+.section-title h2:before {
+    //background: #9b59b6;
+    background: black;
+    bottom: -10px;
+    content: "";
+    height: 3px;
+    left: 50%;
+    margin-left: -45px;
+    position: absolute;
+    width: 90px;
+}
+.section-title h2:after {
+    background: #333;
+    bottom: -10px;
+    content: "";
+    height: 3px;
+    left: 50%;
+    margin-left: -15px;
+    position: absolute;
+    width: 30px;
+}
+.section-title p {
+    font-size: 17px;
+}
+
+.single-pricing-box {
+    border: 2px solid #D6DDD9;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.single-pricing-box:hover{
+    border-color: #B31B1B;
+    box-shadow: 0 0 30px #f1f1f1;
+}
+.single-pricing-box h3 {
+    background: #ddd none repeat scroll 0 0;
+    padding: 10px;
+    //text-transform: uppercase;
+    font-weight: 500;
+}
+.single-pricing-box:hover .pricing-icon {
+    color: #B31B1B;
+}
+.single-pricing-box h3.pricing-count {
+    text-transform: none;
+}
+
+.pricing-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.pricing-list {
+    margin-bottom: 25px;
+    text-align: left;
+}
+.pricing-list ul {
+    line-height: 26px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0 0 0 16px;
+}
+.pricing-list ul li{
+    font-size: 15px;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+.pricing-list ul li:hover{
+    padding-left: 5px;
+}
+.pricing-list ul li:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    color: #3787B0;
+    padding-right: 8px;
+}
+.pricing-list ul li.off:before{
+    content: "\f057";
+    color: #B31B1B;
+}
+
+a.bordered-btn {
+    border: 1px solid #ddd;
+    color: #333;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-size: 16px;
+    text-decoration: none;
+}
+a.bordered-btn:hover{
+    background: #B31B1B;
+    color: #fff;
+    border-color: #B31B1B;
+}
+
