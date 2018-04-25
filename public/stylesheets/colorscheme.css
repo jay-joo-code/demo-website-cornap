@@ -1,0 +1,41 @@
+.bg-blue{
+    background-color: #0068AC;
+}
+.bg-lightblue{
+    background-color: #3787B0;
+}
+.bg-red{
+    background-color: #B31B1B;
+}
+.bg-black{
+    background-color: #222222;
+}
+.bg-white{
+    background-color: #FFFFFF;
+}
+.bg-lightgrey{
+    background-color: #F7F7F7;
+}
+
+.color-blue{
+    color: #0068AC;
+}
+.color-lightblue{
+    color: #3787B0;
+}
+.color-red{
+    color: #B31B1B;
+}
+.color-black{
+    color: #222222;
+}
+.color-white{
+    color: #FFFFFF;
+}
+.color-lightgrey{
+    color: #F7F7F7;
+}
+
+.border-white{
+    border-color: #FFFFFF;
+}
