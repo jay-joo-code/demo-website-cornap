@@ -1,3 +1,3 @@
 # Cornap
-Template website that showcases frontend design.
+Template website that showcases my frontend designs.
 
