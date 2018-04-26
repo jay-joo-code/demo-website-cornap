@@ -34,7 +34,7 @@ app.use(function(err, req, res, next) {
 });
 
 // start server
-var port = 8888;
+var port = 8080;
 app.listen(port, function() {
     console.log('listening at ' + port);
 });
